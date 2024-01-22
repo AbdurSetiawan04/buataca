@@ -1,0 +1,55 @@
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	margin: auto;
+	padding: 20px;
+	max-width: 600px;
+	text-align: center;
+}
+
+audio {
+	display: block;
+	margin: 20px auto;
+}
+
+blockquote {
+	font-size: 24px;
+	font-style: oblique;
+	margin: 40px 0;
+    color:aliceblue;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 20px;
+    color: white;
+}
+
+pre {
+	font-size: 16px;
+	margin-bottom: 40px;
+	white-space: pre-wrap;
+    color: white;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #3e8e41;
+}
